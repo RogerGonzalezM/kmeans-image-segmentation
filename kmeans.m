@@ -2,7 +2,7 @@
 
 function kmeans_segmentation()
     % Read image
-    imagePath = 'ImatgeKMeans.jpg';
+    imagePath = 'ImageKMeans.jpg';
     I = im2double(imread(imagePath));
     [H, W, ~] = size(I);
 
