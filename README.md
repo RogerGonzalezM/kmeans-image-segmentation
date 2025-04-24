@@ -19,8 +19,8 @@ This repository contains a MATLAB script for image segmentation using the K-mean
 ## Change the input image
 By default, the script reads the image "ImageKMeans.jpg". To use another image:
 1. Copy your image into the script folder.
-2. rename it or edit the ***pathImage*** variable in the ***kmeans_segmentation*** function:
-	***pathImage = 'my_new_image.jpg';***
+2. Rename it or edit the ***pathImage*** variable in the ***kmeans_segmentation*** function:
+   `pathImage = 'my_new_image.jpg';`
 3. Make sure the image is in a compatible format (JPG, PNG, etc.).
 
 
