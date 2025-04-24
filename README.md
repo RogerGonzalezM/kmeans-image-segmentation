@@ -48,8 +48,8 @@ Within ***kmeans_segmentation.m*** you can set:
 For each value of `k` in `ks`, a PNG file named `segment_<k>_all.png` is created containing the segmentation in all feature space side by side.
 
 ## Examples
-**Input image
-![Input Image](https://imgur.com/a/aBCKnO4)
+**Input image**
+![Input Image](./ImageKMeans.jpg)
 
 
 ## Author
