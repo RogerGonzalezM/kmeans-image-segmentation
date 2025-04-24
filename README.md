@@ -5,6 +5,7 @@ This repository contains a MATLAB script for image segmentation using the K-mean
 ## Content
 - **InputImage.jpg**: Default input image to perform segmentation.
 - **kmeans_segmentation.m**: Main script that loads the image, extracts features, executes K-means and saves segmentations.
+- **Output**: A folder where the generated outputs are located.
 
 ## Requirements
 - **MATLAB R2016b** or higher (or any other compatible version with the functions used).
@@ -47,6 +48,9 @@ Within ***kmeans_segmentation.m*** you can set:
 For each value of `k` in `ks`, a PNG file named `segment_<k>_all.png` is created containing the segmentation in all feature space side by side.
 
 ## Examples
+**Input image
+![Input Image](https://imgur.com/a/aBCKnO4)
+
 
 ## Author
 - [RogerGonzalezM](https://github.com/RogerGonzalezM/)
