@@ -49,4 +49,4 @@ For each value of `k` in `ks`, a PNG file named `segment_<k>_all.png` is created
 ## Examples
 
 ## Author
-- Roger Gonzalez - [Github user](https://github.com/RogerGonzalezM/)
+- [RogerGonzalezM](https://github.com/RogerGonzalezM/)
