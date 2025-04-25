@@ -42,7 +42,7 @@ Within ***kmeans_segmentation.m*** you can set:
    - To avoid empty centroids, it keeps the previous centroid if no points are assigned.
    - Stop iterating if the centroid variation is less than `tol`.
 4. **Reconstruction of the segmented image**: each pixel is assigned the color of its centroid and, for HSV spaces, it is converted back to RGB.
-5. ** Visualization and saving**: a figure with subplots is created for each feature space and saved in `segment_<k>_all-png`.
+5. **Visualization and saving**: a figure with subplots is created for each feature space and saved in `segment_<k>_all-png`.
 
 ## Generated outputs
 For each value of `k` in `ks`, a PNG file named `segment_<k>_all.png` is created containing the segmentation in all feature space side by side.
